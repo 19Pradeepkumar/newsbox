@@ -32,7 +32,7 @@ const Home = () => {
   //   // }
   // }, [count]);
   const [headlines, setHeadlines] = useState("");
-  console.log(headlines, "at home");
+  console.log(headlines, "at home going");
   return (
     <div className="home">
       <headlinesContext.Provider value={headlines}>
