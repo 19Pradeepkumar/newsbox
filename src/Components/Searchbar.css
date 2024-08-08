@@ -1,0 +1,47 @@
+.search{
+    background-color: rgb(79, 127, 175);
+    border: 1px solid rgb(248, 244, 244);
+    /* border-collapse: collapse; */
+    margin: 20px 200px;
+    height: 200px;
+    color: rgb(4, 4, 4);
+}
+.input{
+    /* padding-top: 20px; */
+    margin-left: 200px;
+    height: 40px;
+}
+
+.input input{
+    padding-left: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    width: 600px;
+    height: 30px;
+}
+
+.output{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 55px;
+}
+
+.output p{
+    padding-top: 10px;
+}
+
+form>button{
+    margin-left: 500px;
+    font-size: 20px;
+    border-radius: 5px;
+    height:40px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+select{
+    height: 30px;
+    font-size: 20px;
+}

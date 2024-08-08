@@ -1,0 +1,82 @@
+/* SignUp.css */
+
+body {
+    background-color: #f0f0f0; /* Light gray background for the page */
+    color: #333; /* Dark gray text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    color: #333; /* Dark gray color for headings */
+    margin-bottom: 15px;
+  }
+  
+  form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px; /* Smaller width for a compact form */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666; /* Medium gray color for labels */
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Light gray background for inputs */
+    color: #333; /* Dark gray text color for inputs */
+  }
+  
+  input:focus {
+    border-color: #007bff; /* Accent color for focus */
+    outline: none;
+  }
+  
+  button {
+    background-color: #007bff; /* Primary button color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  p {
+    color: #666; /* Medium gray color for text */
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #007bff; /* Accent color for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

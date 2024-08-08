@@ -1,0 +1,51 @@
+.stock{
+    background-color: green;
+    height: 140px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+
+.stockrelated{
+    align-items: center;
+    background: linear-gradient(to right,rgb(80, 80, 181),rgb(142, 36, 142));
+}
+
+.stocks{
+    margin-left: 100px;
+    color: rgb(22, 24, 22);
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stocks p{
+    /* padding-right: 20px; */
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+}
+
+.stocks .price{
+    padding-right: 40px;
+}
+
+.price span{
+    font-weight: 500;
+    color:rgb(251, 248, 248)
+}
+
+.searchbar{
+    padding-top: 20px;
+    background-color:rgb(142, 36, 142);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button:hover{
+    background-color: rgb(70, 70, 156);
+    color: rgb(246, 250, 250);
+}

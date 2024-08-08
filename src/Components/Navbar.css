@@ -1,0 +1,30 @@
+/* Container for the entire navbar */
+.navbar {
+    display: flex;
+    background:linear-gradient(to right ,rgb(114, 247, 214),rgb(98, 98, 232));
+    /* justify-content: space-between; Aligns items on opposite ends */
+    align-items: center; 
+    padding: 0 20px; /* Adds some padding on left and right *//* Example background color */
+    height: 60px; /* Example height */
+  }
+  
+  /* Center element */
+  .center {
+    flex: 1; 
+    text-align: center;
+  }
+  
+  /* Right elements */
+  .right{
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    gap: 20px;
+  }
+
+  .right p:hover{
+    color: rgb(202, 37, 37);
+    cursor: pointer;
+  }
+  

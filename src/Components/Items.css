@@ -1,0 +1,56 @@
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.box {
+    background-color: rgb(146, 164, 194);
+    text-align: center;
+    height:40vh;
+}
+
+/* .box:hover {
+    transform: scale(1.02);
+} */
+
+.box button{
+    margin-top: 30px;
+    border-radius: 8px;
+    width:100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background:linear-gradient(to right,rgb(170, 170, 251),rgb(48, 83, 94),rgb(65, 65, 98));
+}
+
+.box div{
+    margin-top: 20px;
+    display: flex;
+    padding-left:20px ;
+    height: 60px;
+    font-size: 22px;
+    /* width: 95%; */
+    overflow: auto;
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.01)), url('C:\Users\91728\OneDrive\Desktop\main_project\news\src\Components\th.jpeg'); */
+}
+
+.box img{
+    height: 20px;
+    width: 20px;
+    margin-left: 550px;
+    margin-top: 35px;
+    position: fixed;
+    padding-left: 20px;
+}
+
+
+
+.box a{
+    color: rgb(25, 25, 184);
+}
+
+.box a:hover{
+   color: rgb(157, 25, 32);
+
+}

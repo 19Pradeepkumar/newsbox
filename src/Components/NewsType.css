@@ -1,0 +1,28 @@
+.newstype{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+
+.fields{
+  margin-left: 10px;
+  width:610px;
+    height: 70px;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.fields.green {
+    background: linear-gradient(to right, rgb(65, 8, 25), rgb(171, 119, 140));
+  }
+  
+  .fields.pink {
+    background: linear-gradient(to right, rgb(28, 86, 246), rgb(186, 211, 247));
+  }

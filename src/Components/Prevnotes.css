@@ -1,0 +1,73 @@
+/* Prevnotes.css */
+
+.prevnotes-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #f1f4f6;
+    color: rgb(12, 9, 9);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .prevnotes-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .prevnotes-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prevnotes-modal {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .prevnotes-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .prevnotes-close:hover {
+    color: darkred;
+  }
+  
+  .notes-list {
+    margin-top: 20px;
+  }
+  
+  .note-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .note-item:last-child {
+    border-bottom: none;
+  }
+  
+  .note-item p {
+    margin: 0;
+  }
+  
+  .note-item small {
+    color: gray;
+  }
+  
